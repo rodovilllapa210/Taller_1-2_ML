@@ -1,0 +1,7 @@
+{
+  "x_clust_file": "X_clust_part1.csv",
+  "is_standardized": true,
+  "standardization_method": "StandardScaler",
+  "scaler_file": "scaler_x_clust_part1.pkl",
+  "do_not_rescale_in_part2": true
+}
