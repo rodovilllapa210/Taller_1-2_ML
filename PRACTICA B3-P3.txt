@@ -1,0 +1,56 @@
+Sensitivity: C2 Internal
+PRÁCTICA B3-P3
+MÓDULO DE MACHINE LEARNING
+Reducción de Dimensionalidad y Aprendizaje No Supervisado
+Datos básicos:
+- Práctica individual
+- Entrega el día 9 de abril a través del aula virtual antes del comienzo de la clase.
+- El entregable es un archivo ipynb (Jupyter Notebook).
+1. Objetivo de la práctica
+El objetivo de esta práctica es comprender y aplicar técnicas de aprendizaje no supervisado
+para el análisis de fondos de inversión. Para ello, el estudiante aplicará los conceptos
+fundamentales del clustering y su utilidad en finanzas, empleará algoritmos como K‑Means y
+hierarchical clustering (HAC) para agrupar fondos en función de características cuantitativas,
+y utilizará la herramienta Graphext para explorar dichos grupos de manera visual. Además,
+aplicará reducción de dimensionalidad mediante PCA para facilitar la identificación de
+patrones, interpretará los resultados obtenidos y desarrollará una argumentación financiera
+sólida sobre los clústeres encontrados.
+2. Contexto del problema
+Como gestores de carteras, creemos que el mercado asiático tendrá un buen rendimiento el
+próximo año; por ello, buscamos posicionar nuestro fondo de fondos con un sesgo claro hacia
+este mercado.
+3. Datos disponibles
+- Valores liquidativos (NAVs) de 25.000 fondos de inversión entre el 05/01/2016 y el
+16/07/2021 proporcionados por IronIA. Estos datos están disponibles en el fichero
+“navs.pickle”.
+- Factores de Fama & French (Mkt-RF, SMB, HML, MOM) para Asia Pacífico excluyendo
+Japón. Estos datos deben ser localizados y descargados por parte del alumno.
+- Valores liquidativos del ETF “iShares MSCI All Country Asia ex Japan” (AAXJ). Su uso
+para la extracción de características está estrictamente prohibido. Solo se utilizará
+como TEST al final del ejercicio.
+4. Tarea del estudiante
+- Partir de los resultados de la primera parte de la práctica.
+Sensitivity: C2 Internal
+- Aplicación de PCA (Análisis de Componentes Principales): Reducción de
+dimensionalidad.
+- Algoritmos K-Means, HAC, GraphExt y/o cualquier otro que se considere de utilidad:
+Clustering mediante diferentes métodos.
+- Discusión de resultados y conclusiones: Hallazgos e interpretación de los clústeres.
+5. Reglas y restricciones
+- El ETF “iShares MSCI All Country Asia ex Japan” queda estrictamente prohibido para
+cualquier cosa que no sea la validación final de las decisiones tomadas. Equivale al
+conjunto de TEST.
+6. Entorno de trabajo y procedimiento
+- No aplica.
+7. Entregables
+Cada estudiante deberá entregar un único documento en formato Jupyter Notebook, que
+incluya el código utilizado y el razonamiento, desde el punto de vista financiero, de todas las
+decisiones tomadas.
+8. Criterios de evaluación
+La evaluación de la práctica se realizará teniendo en cuenta, sobre todo, la justificación de las
+decisiones tomadas durante la ejecución de la misma.
+Una práctica entregada solamente con código, sin incluir desarrollo y razonamiento
+suficiente, será evaluada con un cero.
+El uso del ETF “iShares MSCI All Country Asia ex Japan” para cualquier cosa que no sea la
+validación final de las decisiones tomadas, tendrá como consecuencia que la práctica será
+puntuada con un cero.
